@@ -1,0 +1,11 @@
+
+
+1.新建一个工程，spring-boot-quartz
+
+2.新建一个task，取名为SchuduledTasks
+
+3.编写quartz配置类
+    1)MethodInvokingJobDetailFactoryBean（jobDetail）
+    2)CronTriggerFactoryBean（trigger）
+    3)SchedulerFactoryBean（scheduler）
+4.编写启动类
